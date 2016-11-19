@@ -38,7 +38,7 @@
      }
 
    ul.nav:not(.nav-tabs) > li:hover:after {
-     height: 96px;
+     height: 97px;
      margin-top: -100px;
    }
 
