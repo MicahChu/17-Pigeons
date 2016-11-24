@@ -115,3 +115,29 @@
      background-color: #5A4D89;
      color: white;
    }
+
+   div.about-image {
+     background-image: url(../IMG/logo.png);
+     background-color: black;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     height: 400px;
+   }
+
+   div.about-text {
+     height: 400px;
+     background-color: #316766;
+     color: white;
+   }
+
+   div.music-embed {
+     height: 400px;
+     background-color: #5A4D89;
+   }
+
+   div.music-text {
+     background-color: #D8490B;
+     height: 400px;
+     color: white;
+   }
