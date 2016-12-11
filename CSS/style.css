@@ -344,7 +344,7 @@
    }
 
    div.social-buttons {
-     
+     margin: auto;
    }
 
    @media screen and (max-width: 991px) {
