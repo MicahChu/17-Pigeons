@@ -24,9 +24,125 @@
    }
 
    /* navbar */
+
+   .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+     background-color: transparent !important;
+     border: 0px;
+     padding-top: 31px;
+   }
+
    .nav:not(.nav-tabs)>li>a:focus, .nav:not(.nav-tabs)>li>a:hover {
      background-color: transparent;
    }
+
+   .icon-bar {
+     background-color: black !important;
+   }
+
+   .navbar-default {
+     margin-left: 40px;
+     margin-right: 40px;
+     border-radius: 0px;
+     background-color: transparent;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     border-left: transparent;
+     border-right: transparent;
+     margin-top: 40px;
+     height: 100px;
+   }
+
+   div.navbar-cfl, div.navbar-header, a.navbar-brand, ul.navbar-nav, ul.navbar-nav > li, ul.navbar-nav > li > a {
+     height: 100px;
+   }
+
+   ul.navbar-nav > li > a {
+     padding-top: 37px;
+     width: 150px;
+     text-align: center;
+     font-size: 24px;
+     color: black !important;
+     transition: all 0.25s ease-out;
+   }
+
+   ul.navbar-nav > li > a:hover {
+     color: #D8490B !important;
+   }
+
+   a.navbar-brand {
+     padding-top: 37px;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Bitter';
+     color: black !important;
+     transition: all 0.25s ease-out;
+   }
+
+   a.navbar-brand:hover {
+     color: #D8490B !important;
+   }
+
+   @media screen and (max-width: 779px) {
+
+     ul.navbar-nav > li > a {
+       width: 100px;
+     }
+
+   }
+
+   @media screen and (max-width: 810px) {
+
+     a.navbar-brand {
+       font-size: 24px;
+     }
+
+     ul.navbar-nav > li > a {
+       font-size: 20px;
+     }
+
+   }
+
+   @media screen and (max-width: 767px) {
+
+     a.navbar-brand {
+       font-size: 40px;
+     }
+
+     ul.navbar-nav > li {
+       height: 50px;
+     }
+
+     ul.navbar-nav > li > a {
+       background-color: white;
+       float: right;
+       height: 50px;
+       padding-top: 15px;
+       text-align: center;
+     }
+
+     ul.navbar-nav > li > a:hover {
+       background-color: white !important;
+     }
+
+   }
+
+   @media screen and (max-width: 466px) {
+     a.navbar-brand {
+       font-size: 34px;
+     }
+   }
+
+   div.contact > div > form > textarea {
+     width: 600px;
+   }
+
+   @media screen and (max-width: 684px) {
+     div.contact > div > form > textarea {
+       width: 100%;
+     }
+   }
+
+   @media screen and (min-width: 1010px) {
 
    ul.nav:not(.nav-tabs) li:after {
        height: 0px;
@@ -47,34 +163,6 @@
    margin-top: inherit;
    }
 
-   @media screen and (max-width:770px) {
-   ul.nav:not(.nav-tabs) > li:hover:after {
-    height: inherit;
-    margin-top: inherit;
-   }
-   }
-
-   span.icon-bar {
-     border: 1px solid black;
-   }
-
-   .navbar-default {
-     margin-left: 40px;
-     margin-right: 40px;
-     border-radius: 0px;
-     background-color: transparent;
-     border-top: 2px solid black;
-     border-bottom: 2px solid black;
-     border-left: transparent;
-     border-right: transparent;
-     margin-top: 40px;
-     height: 100px;
-   }
-
-   div.container-fluid, div.navbar-header, a.navbar-brand, ul.navbar-nav, ul.navbar-nav > li, ul.navbar-nav > li > a {
-     height: 100px;
-   }
-
    ul.navbar-nav > li > a {
      padding-top: 37px;
      width: 200px;
@@ -89,17 +177,11 @@
    }
 
    a.navbar-brand {
-     padding-top: 37px;
-     text-align: center;
      font-size: 40px;
-     font-family: 'Bitter';
-     color: black !important;
-     transition: all 0.25s ease-out;
    }
 
-   a.navbar-brand:hover {
-     color: #D8490B !important;
-   }
+}
+   /*other stuff*/
 
    h1, h2, h3, h4, h5, h6 {
      font-family: 'Bitter';
@@ -114,6 +196,24 @@
      height: 250px;
      background-color: #5A4D89;
      color: white;
+   }
+
+   @media screen and (max-width: 747px) {
+     div.previews > h1 {
+       font-size: 30px;
+     }
+   }
+
+   @media screen and (max-width: 628px) {
+     div.previews > h1 {
+       font-size: 26px;
+     }
+   }
+
+   @media screen and (max-width: 550px) {
+     div.previews > h1 {
+       font-size: 20px;
+     }
    }
 
    div.about-image {
@@ -155,6 +255,21 @@
 
    div.music {
      height: 400px;
+   }
+
+   @media screen and (max-width: 991px) {
+     div.music, div.about {
+       height: 800px;
+     }
+
+     div.about-text, div.music-text {
+       margin-top: -20px;
+     }
+
+     div.about-text > h2, div.music-text > h2 {
+       padding-top: 20px;
+       margin-bottom: -10px;
+     }
    }
 
    input.form-control, textarea.form-control {
@@ -228,6 +343,17 @@
      margin-top: 3px;
    }
 
+   div.social-buttons {
+     
+   }
+
+   @media screen and (max-width: 991px) {
+     .btn-social {
+       margin-left: 5px;
+       margin-right: 5px;
+     }
+   }
+
    .music-main {
      background-color: #D8490B;
      padding: 35px;
@@ -293,4 +419,30 @@
 
    a:hover {
      text-decoration: none;
+   }
+
+   .about-page {
+     background-color: #316766;
+     color: white;
+     padding-left: 40px;
+     padding-right: 40px;
+   }
+
+   div.about-text > p > a, div.music-text > p > a {
+     color: white;
+     text-decoration: underline;
+   }
+
+   .readmore {
+     background-color: transparent;
+     color: white;
+     border-radius: 60px;
+     border: 3px solid white;
+     transition: 0.25s ease-out;
+   }
+
+   .readmore:hover {
+     background-color: white;
+     color: black;
+     border: 3px solid white;
    }
