@@ -130,6 +130,10 @@
      a.navbar-brand {
        font-size: 34px;
      }
+
+     a.navbar-brand > img {
+       display: none;
+     }
    }
 
    div.contact > div > form > textarea {
