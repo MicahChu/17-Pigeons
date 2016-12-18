@@ -128,7 +128,7 @@
 
    @media screen and (max-width: 466px) {
      a.navbar-brand {
-       font-size: 34px;
+       font-size: 28px;
      }
 
      a.navbar-brand > img {
